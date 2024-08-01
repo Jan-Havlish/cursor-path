@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import NewCourse from '../ui/course_part/NewCourse'
 

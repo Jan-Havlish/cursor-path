@@ -34,6 +34,15 @@ const Navbar: React.FC = () => {
                 >
                   Courses
                 </Link>
+                <Link
+                href={"/add-course"}
+                  className={clsx(
+                    "text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium", 
+                    pathname === "/courses" && "bg-gray-900 text-white"
+                )}
+                >
+                  Add Course
+                </Link>
               </div>
             </div>
           </div>
